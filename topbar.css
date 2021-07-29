@@ -1,0 +1,17 @@
+.yorumlar{
+    position:relative;
+}
+
+.yorumlar .topbar{
+    position:absolute;
+    width:75px;
+    height:75px;
+    right:0;
+    bottom:100px;
+}
+
+.yorumlar .topbar img{
+    width:100%;
+    border-radius:50%;
+    border:3px solid black;
+}

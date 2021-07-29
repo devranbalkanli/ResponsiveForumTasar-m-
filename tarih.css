@@ -1,0 +1,37 @@
+.tarih h2{
+    text-decoration:underline;
+    padding:12px;
+}
+
+.tarih img{
+    width:150px;
+    height:150px;
+    border-radius:50%;
+}
+
+.tarih{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    background-image:url(/görüntü/sami\ yen\ opak.png);
+    background-size:cover;
+}
+
+.tarih p{
+    width:75%;
+    line-height:28px;
+    letter-spacing:2px;
+    box-shadow:15px 15px 8px grey;
+}
+
+.tarih p::first-letter{
+    font-size:60px;
+}
+
+@media(max-width:768px){
+    .tarih{
+        height:auto;
+        margin-top:3rem;
+    }
+}

@@ -1,0 +1,70 @@
+.navbargs{
+    display:flex;
+    width:100%;
+    background-image:url(/görüntü/gswallpaper.jpg);
+    justify-content:space-between;
+    align-items:center;
+    background-repeat:none;
+    background-size:cover;
+    padding:7px;
+}
+
+.navbargs ul{
+    display:flex;
+    list-style-type:none;
+   
+}
+
+.navbargs ul a{
+    text-decoration:none;
+    color:white;
+    border-right:3px solid black;
+    font-weight: bolder;
+    padding: 15px;
+
+}
+
+.navbargs ul li{
+    padding:8px;
+}
+
+.navbargs ul a:hover{
+    color:black;
+    background:yellow;
+    font-weight: bolder;
+    padding:5px;
+}
+
+.navbar-h2{
+    color:white;
+    letter-spacing:1px;
+}
+
+/*MOBİL VERSİYON */
+
+@media(max-width:768px){
+    .navbargs{
+        flex-direction:column;
+    }
+
+    .navbargs ul{
+        flex-direction: column;
+        width:100%;
+    }
+
+    .navbargs a{
+        display:block;
+        line-height:20px;
+        padding:5px;
+    }
+
+    .navbargs h2{
+        border-bottom:1px solid yellow;
+    }
+
+    .navbargs ul a:hover{
+    border-radius: 8px;
+    color:black;
+    padding-left: 20px;
+    }
+}
